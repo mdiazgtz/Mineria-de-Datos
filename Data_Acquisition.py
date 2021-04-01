@@ -21,3 +21,15 @@ def print_tabulate(df: pd.DataFrame):
 
 df = pd.read_csv("C:\\Users\\MIKID\\Documents\\Michelle - Facultad de Ciencias Físico Matemáticas\\7TO SEMESTRE\\MINERÍA DE DATOS\\netflix_titles.csv")
 print_tabulate(df)
+
+
+#LIMPIEZA DE DATOS
+
+import pandas as pd
+import numpy as np
+import matplotlib as plt
+import seaborn as sns
+
+df.drop(columns=['show_id','cast','date_added','rating','duration','listed_in','description'])
+
+
